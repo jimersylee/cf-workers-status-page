@@ -37,3 +37,11 @@ monitors:
     url: 'https://blog.cloudflare.com/'
     method: GET
     expectStatus: 200
+    
+  - id: blog.jimersylee.com
+    name: blog.jimersylee.com
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://blog.jimersylee.com'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
